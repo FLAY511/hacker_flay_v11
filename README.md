@@ -1,12 +1,13 @@
-# Hacker Flay v11
+# hacker_flay_v11
 
-Toolkit OSINT + Blackcat VIP + Menu Lain + Pembuatan JSO + Dark Web.
+Gabungan dari hacker_flay_v9 + blackcatvip.sh.
 
-## Cara Pakai
+## Cara pakai (Termux)
 ```bash
-pkg update && pkg upgrade -y
-pkg install git curl bc -y
-git clone https://github.com/FLAY511/hacker_flay_v11.git
+pkg update -y && pkg upgrade -y
+pkg install -y curl openssl perl-exiftool figlet bc python
+pip install holehe   # opsional, untuk cek email
+unzip hacker_flay_v11.zip
 cd hacker_flay_v11
 chmod +x hacker_flay_v11.sh
 ./hacker_flay_v11.sh
